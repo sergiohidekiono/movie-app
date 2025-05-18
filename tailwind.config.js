@@ -3,6 +3,7 @@ module.exports = {
     // NOTE: Update this to include the paths to all of your component files.
     content: [
         "./app/**/*.{js,jsx,ts,tsx}", // <-- Aqui está o `index.tsx` e o `_layout.tsx`
+        "components/**/*.{js,jsx,ts,tsx}", // <-- Carregando todos os componentes
     ],
     presets: [require("nativewind/preset")],
     theme: {
